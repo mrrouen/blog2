@@ -35,7 +35,7 @@ export default function Home() {
           </p>
 
           <p style={{ fontSize: '1rem', lineHeight: '1.6' }}>
-            My long-term goal is to lead a dedicated team on an original, narratively-driven game that pushes technical boundaries and creates unforgettable player experiences. I also spend significant time dissecting the mechanics and game loops of my favorite titles, which informs my own design philosophy. My favorite genres include deep RPGs and tactical shooters, which I hope to contribute to. In addition to development, I'm exploring digital sculpting to better understand 3D asset pipelines. My favorite chips are spicy barbecue.
+            My long-term goal is to lead a dedicated team on an original, narratively-driven game that pushes technical boundaries and creates unforgettable player experiences. I also spend significant time dissecting the mechanics and game loops of my favorite titles, which informs my own design philosophy. My favorite genres include deep RPGs and tactical shooters, which I hope to contribute to. In addition to development, I'm exploring digital sculpting to better understand 3D asset pipelines. My favorite chips are spicy cheese.
           </p>
         </div>
 
