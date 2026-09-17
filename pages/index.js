@@ -31,14 +31,14 @@ export default function Home() {
         {/* Bio & Specialization Paragraphs */}
         <div style={{ maxWidth: '650px', textAlign: 'left', margin: '1.5rem 0' }}>
           <p style={{ fontSize: '1rem', lineHeight: '1.6', marginBottom: '1rem' }}>
-            Hello, I'm <strong>Rouenhowell G. Reyes</strong>. In my free time, I enjoy drawing, listening to video game OSTs, and eating chips. My passion for game development goes beyond just the creative aspects. In 5 years, I see myself as an impactful video game developer at a major studio, having shipped at least one critically acclaimed title. I am deeply interested in the intricate fusion of storytelling, visual art, and complex system engineering that goes into modern games, and I am actively studying topics like advanced artificial intelligence, physics engines, and multiplayer network architecture.
+            Hello, I'm <strong>Rouenhowell G. Reyes</strong>. In my free time, I enjoy drawing, listening to video game OSTs, and eating all sorts of food. My passion for game development goes beyond just the creative aspects. In 5 years, I see myself as an impactful video game developer at a major studio, having shipped at least one critically acclaimed title. I am deeply interested in the intricate fusion of storytelling, visual art, and complex system engineering that goes into modern games, and I am actively studying topics like advanced artificial intelligence, physics engines, and multiplayer network architecture.
           </p>
 
           <p style={{ fontSize: '1rem', lineHeight: '1.6' }}>
             My long-term goal is to lead a dedicated team on an original, narratively-driven game that pushes technical boundaries and creates unforgettable player experiences. I also spend significant time dissecting the mechanics and game loops of my favorite titles, which informs my own design philosophy. My favorite genres include deep RPGs and tactical shooters, which I hope to contribute to. In addition to development, I'm exploring digital sculpting to better understand 3D asset pipelines. My favorite chips are spicy cheese.
           </p>
         </div>
-
+What do you think? Yes, I am Filipino final second semester in foundation and it's picked in Sala Basketball
         {/* Required Professor Note */}
         <p className={styles.description} style={{ textAlign: 'left', maxWidth: '650px' }}>
           (This is a sample website - you’ll be building a site like this on <a href="https://nextjs.org/learn" target="_blank" rel="noopener noreferrer">our Next.js tutorial</a>.)
