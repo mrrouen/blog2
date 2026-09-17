@@ -31,7 +31,7 @@ export default function Home() {
         {/* Bio & Specialization Paragraphs */}
         <div style={{ maxWidth: '650px', textAlign: 'left', margin: '1.5rem 0' }}>
           <p style={{ fontSize: '1rem', lineHeight: '1.6', marginBottom: '1rem' }}>
-            Hello, I'm <strong>Rouenhowell G. Reyes</strong>. In my free time, I enjoy drawing, 3D modelling, listening to video game OSTs, and eating all sorts of food. My passion for game development goes beyond just the creative aspects. In 5 years, I see myself as an impactful video game developer at a major studio, having shipped at least one critically acclaimed title. I am deeply interested in the intricate fusion of storytelling, visual art, and complex system engineering that goes into modern games, and I am actively studying topics like advanced artificial intelligence, physics engines, and multiplayer network architecture.
+            Hello, I'm <strong>Rouenhowell G. Reyes</strong>. In my free time, I enjoy drawing, 3D modelling, listening to video game OSTs, and eating all sorts of food and drinks. My passion for game development goes beyond just the creative aspects. In 5 years, I see myself as an impactful video game developer at a major studio, having shipped at least one critically acclaimed title. I am deeply interested in the intricate fusion of storytelling, visual art, and complex system engineering that goes into modern games, and I am actively studying topics like advanced artificial intelligence, physics engines, and multiplayer network architecture.
           </p>
 
           <p style={{ fontSize: '1rem', lineHeight: '1.6' }}>
