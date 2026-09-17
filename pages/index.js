@@ -5,48 +5,44 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Create Next App</title>
+        <title>Rouenhowell G. Reyes</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
+        {/* Profile Picture */}
+        <img
+          src="/profile.jpg"
+          alt="Rouenhowell G. Reyes"
+          style={{
+            width: '144px',
+            height: '144px',
+            borderRadius: '50%',
+            objectFit: 'cover',
+            marginBottom: '1rem'
+          }}
+        />
+
+        {/* Full Name */}
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          Rouenhowell G. Reyes
         </h1>
 
-        <p className={styles.description}>
-          Get started by editing <code>pages/index.js</code>
-        </p>
+        {/* Bio & Specialization Paragraphs */}
+        <div style={{ maxWidth: '650px', textAlign: 'left', margin: '1.5rem 0' }}>
+          <p style={{ fontSize: '1rem', lineHeight: '1.6', marginBottom: '1rem' }}>
+            Hello, I'm <strong>Rouenhowell G. Reyes</strong>. In my free time, I enjoy drawing, listening to video game OSTs, and eating chips. My passion for game development goes beyond just the creative aspects. In 5 years, I see myself as an impactful video game developer at a major studio, having shipped at least one critically acclaimed title. I am deeply interested in the intricate fusion of storytelling, visual art, and complex system engineering that goes into modern games, and I am actively studying topics like advanced artificial intelligence, physics engines, and multiplayer network architecture.
+          </p>
 
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
-
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/canary/examples"
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
+          <p style={{ fontSize: '1rem', lineHeight: '1.6' }}>
+            My long-term goal is to lead a dedicated team on an original, narratively-driven game that pushes technical boundaries and creates unforgettable player experiences. I also spend significant time dissecting the mechanics and game loops of my favorite titles, which informs my own design philosophy. My favorite genres include deep RPGs and tactical shooters, which I hope to contribute to. In addition to development, I'm exploring digital sculpting to better understand 3D asset pipelines. My favorite chips are spicy barbecue.
+          </p>
         </div>
+
+        {/* Required Professor Note */}
+        <p className={styles.description} style={{ textAlign: 'left', maxWidth: '650px' }}>
+          (This is a sample website - you’ll be building a site like this on <a href="https://nextjs.org/learn" target="_blank" rel="noopener noreferrer">our Next.js tutorial</a>.)
+        </p>
       </main>
 
       <footer>
@@ -86,21 +82,6 @@ export default function Home() {
           align-items: center;
           text-decoration: none;
           color: inherit;
-        }
-        code {
-          background: #fafafa;
-          border-radius: 5px;
-          padding: 0.75rem;
-          font-size: 1.1rem;
-          font-family:
-            Menlo,
-            Monaco,
-            Lucida Console,
-            Liberation Mono,
-            DejaVu Sans Mono,
-            Bitstream Vera Sans Mono,
-            Courier New,
-            monospace;
         }
       `}</style>
 
